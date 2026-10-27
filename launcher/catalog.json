@@ -1,1 +1,16 @@
-[{"Key":"obscura-vault-zero","GameId":5245188,"Title":"OBSCURA INDEX — VAULT ZERO","Description":"Study the evidence. Listen to the archive. Survive your shift.","StoreUrl":"https://the-trans-girl-workshop.itch.io/obscura-index-vault-zero","Price":"£10 on release","Released":false,"UploadId":20081695,"Executable":"OBSCURA INDEX - VAULT ZERO.exe","Channel":"windows","Target":"the-trans-girl-workshop/obscura-index-vault-zero"}]
+[
+  {
+    "Key": "obscura-vault-zero",
+    "GameId": 5245188,
+    "Title": "OBSCURA INDEX — VAULT ZERO",
+    "Description": "Study the evidence. Listen to the archive. Survive your shift.",
+    "StoreUrl": "https://the-trans-girl-workshop.itch.io/obscura-index-vault-zero",
+    "Price": "£10 on release",
+    "Released": false,
+    "UploadId": 20081695,
+    "Executable": "OBSCURA INDEX - VAULT ZERO.exe",
+    "Channel": "windows",
+    "Target": "the-trans-girl-workshop/obscura-index-vault-zero",
+    "PlaytestAvailable": true
+  }
+]
