@@ -367,6 +367,19 @@ footer div {
   background: #050509;
 }
 
+/* -------- launcher download -------- */
+.launcher-feature { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; }
+.launcher-feature > * { min-width: 0; }
+.launcher-feature h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -.04em; }
+.launcher-screenshot { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 18px 50px rgba(0,0,0,.3); }
+.download-meta { color: var(--text); font-size: .83rem; font-weight: 750; margin: 15px 0 5px; }
+.download-note { color: var(--muted); font-size: .82rem; margin: 0; }
+.launcher-intro h1 { font-size: clamp(2.3rem, 5vw, 4rem); }
+.launcher-steps { color: var(--muted); }
+.launcher-steps li { margin-bottom: 12px; padding-left: 5px; }
+.launcher-steps a { color: var(--cyan); }
+a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 5px; }
+
 /* -------- responsive -------- */
 
 @media (max-width: 760px) {
@@ -402,6 +415,7 @@ footer div {
   }
 
   .project-grid,
+  .launcher-feature,
   .split {
     grid-template-columns: 1fr;
   }
