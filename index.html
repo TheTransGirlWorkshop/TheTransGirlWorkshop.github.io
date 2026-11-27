@@ -1,152 +1,121 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The Trans Girl Workshop — indie games, Discord bots, mods, tools and experimental projects.">
-  <title>The Trans Girl Workshop</title>
-  <link rel="icon" href="/assets/tgw-logo.png">
-  <link rel="stylesheet" href="/site-v3.css?v=4">
+  <title>The Trans Girl Workshop | Independent Games &amp; Software</title>
+  <meta name="description" content="Discover games and software from The Trans Girl Workshop. Investigate a haunted archive in OBSCURA INDEX, explore our tools and download the free Workshop Launcher for Windows.">
+  <meta name="theme-color" content="#110e17">
+  <link rel="canonical" href="https://thetransgirlworkshop.com/">
+  <link rel="icon" href="/assets/tgw-mark.webp" type="image/webp">
+  <link rel="stylesheet" href="/workshop.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Trans Girl Workshop">
+  <meta property="og:title" content="The Trans Girl Workshop | Independent Games &amp; Software">
+  <meta property="og:description" content="Atmospheric games, practical tools and a home for your Workshop library.">
+  <meta property="og:url" content="https://thetransgirlworkshop.com/">
+  <meta property="og:image" content="https://thetransgirlworkshop.com/assets/obscura/title.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Trans Girl Workshop",
+      "url": "https://thetransgirlworkshop.com/",
+      "logo": "https://thetransgirlworkshop.com/assets/tgw-logo.png",
+      "sameAs": [
+        "https://github.com/TheTransGirlWorkshop",
+        "https://the-trans-girl-workshop.itch.io/",
+        "https://gamejolt.com/@TheTransGirlWorkshop",
+        "https://www.youtube.com/@TheTransGirlWorkshop"
+      ]
+    }
+  </script>
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="/">
-    <img class="brand-logo" src="/assets/tgw-logo.png" alt="" width="38" height="38">
-    <span>The Trans Girl Workshop</span>
-  </a>
-  <nav>
-    <a href="#projects">Projects</a>
-    <a href="/launcher/">Launcher</a>
-    <a href="/support.html">Support</a>
-    <a href="https://github.com/TheTransGirlWorkshop">GitHub</a>
-    <a href="https://the-trans-girl-workshop.itch.io">itch.io</a>
-  </nav>
-</header>
-
-<main>
-  <section class="hero">
-    <img class="hero-logo" src="/assets/tgw-logo.png" alt="The Trans Girl Workshop logo" width="210" height="210">
-    <div>
-      <p class="eyebrow">Independent development studio</p>
-      <h1>Games • Tools • Chaos</h1>
-      <p class="hero-text">
-        The Trans Girl Workshop creates atmospheric games, Discord bots, mods,
-        utilities and experimental projects — built independently, one project at a time.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="/launcher/">Download the launcher</a>
-        <a class="button" href="#projects">Explore projects</a>
-        <a class="button" href="https://github.com/TheTransGirlWorkshop">GitHub</a>
-        <a class="button" href="/support.html">Support the Workshop</a>
-      </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="wordmark" href="/"><img src="/assets/tgw-mark.webp" alt="" width="42" height="42"><span>The Trans Girl Workshop</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="/launcher/">Launcher</a>
+        <a href="/support">Support</a>
+      </nav>
     </div>
-  </section>
-
-  <section class="section" id="launcher">
-    <div class="launcher-feature">
-      <div>
-        <p class="eyebrow">Now available for Windows</p>
-        <h2>The Workshop Launcher</h2>
-        <p class="hero-text">Our games, your library and the latest Workshop news — together in one desktop app. Sign in, redeem your invitation codes, and install or update the games in your library.</p>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+    <div class="studio-intro">
+      <h1>Independent games &amp; software.</h1>
+      <p>Explore what we’re building, from psychological horror to tools for online communities.</p>
+    </div>
+    <section class="feature" aria-labelledby="featured-game">
+      <picture class="feature-art">
+        <source media="(max-width: 640px)" srcset="/assets/obscura/office-mobile.webp">
+        <img src="/assets/obscura/office-hero.webp" width="1600" height="900" alt="" fetchpriority="high">
+      </picture>
+      <div class="feature-content">
+        <p class="label"><span></span> Out now on Windows</p>
+        <h2 id="featured-game">Obscura Index <em>Vault Zero</em></h2>
+        <p>Work the night shift in a haunted archive. Examine recovered evidence, report anomalies and watch the office around you.</p>
         <div class="actions">
-          <a class="button primary" href="https://github.com/TheTransGirlWorkshop/TheTransGirlWorkshop.github.io/releases/download/launcher-v0.4.1/TransGirlWorkshop_Launcher_0.4.1_Setup.exe">↓ Download for Windows</a>
-          <a class="button" href="/launcher/">Explore the launcher</a>
+          <a class="cta primary" href="/projects/obscura-index">Explore the game <span aria-hidden="true">↗</span></a>
+          <a class="cta secondary" href="/launcher/">Get the launcher</a>
         </div>
-        <p class="download-meta">Free launcher · Version 0.4.1 · Windows x64</p>
-        <p class="download-note">Game access depends on your account and each game’s availability.</p>
       </div>
-      <a href="/launcher/" aria-label="Explore the Workshop Launcher"><img class="launcher-screenshot" src="/assets/workshop-launcher-0.4.1.png" alt="Workshop Launcher showing OBSCURA INDEX, the library and official community links" width="1320" height="880" loading="lazy"></a>
+    </section>
+    <section class="panel launcher-panel" id="launcher" aria-labelledby="launcher-heading">
+      <div>
+        <p class="label">Free · Windows x64</p>
+        <h2 id="launcher-heading">Workshop Launcher</h2>
+        <p>Browse Workshop games, redeem codes and install the games linked to your account.</p>
+        <a class="cta secondary" href="/launcher/">Download for Windows <span aria-hidden="true">↓</span></a>
+      </div>
+      <img src="/assets/workshop-launcher-preview.webp" width="1080" height="720" alt="Workshop Launcher home screen and library shortcuts" loading="lazy" decoding="async">
+    </section>
+    <section class="projects" id="projects" aria-labelledby="project-heading">
+      <div class="section-title"><h2 id="project-heading">Projects</h2><a href="https://github.com/TheTransGirlWorkshop">TGW on GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="project-grid">
+        <article class="panel project">
+          <p class="label">Social venue</p><h3>The Ninth Life</h3>
+          <p>Explore the venue, upcoming events and membership on The Ninth Life’s website.</p>
+          <a href="https://the-ninth-life-three.vercel.app/">Visit The Ninth Life <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="panel project trapdoor-project">
+          <p class="label">Discord bot · Public beta</p><h3>TrapDoor</h3>
+          <p>A moderation honeypot that catches bots that blindly spam available channels.</p>
+          <a href="/projects/trapdoor">TrapDoor project <span aria-hidden="true">↗</span></a>
+          <a href="https://discord.com/oauth2/authorize?client_id=1556682660116435084">Add to Discord <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="panel project">
+          <p class="label">Elite Dangerous utility</p><h3>EDProLight</h3>
+          <p>A community project and utility for Elite Dangerous.</p>
+          <a href="https://github.com/TheTransGirlWorkshop/EDProLight">View on GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="panel project">
+          <p class="label">BetterDiscord theme</p><h3>KawaiiNeko</h3>
+          <p>A custom neko-inspired theme for BetterDiscord.</p>
+          <a href="https://github.com/TheTransGirlWorkshop/KawaiiNeko-Better-Discord-Theme">View on GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+    <section class="help-strip" aria-labelledby="help-heading">
+      <div><h2 id="help-heading">Need a hand?</h2><p>Get help with the launcher, a purchase or a Workshop game.</p></div>
+      <a class="cta secondary" href="/support">Customer support <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="site-end">
+    <div class="shell footer-inner">
+      <div><a class="wordmark" href="/"><img src="/assets/tgw-mark.webp" alt="" width="36" height="36"><span>The Trans Girl Workshop</span></a><p>© 2026 The Trans Girl Workshop</p></div>
+      <nav aria-label="Community and contact">
+        <a href="https://discord.gg/jWqy4XeeCW">Discord</a>
+        <a href="https://www.youtube.com/@TheTransGirlWorkshop">YouTube</a>
+        <a href="https://the-trans-girl-workshop.itch.io/">itch.io</a>
+        <a href="https://gamejolt.com/@TheTransGirlWorkshop">Game Jolt</a>
+        <a href="mailto:contact@thetransgirlworkshop.com">General enquiries</a>
+        <a href="mailto:support@thetransgirlworkshop.com">Email support</a>
+      </nav>
     </div>
-  </section>
-
-  <section class="section" id="projects">
-    <div class="section-heading">
-      <p class="eyebrow">On the workbench</p>
-      <h2>Projects</h2>
-    </div>
-
-    <div class="project-grid">
-      <article class="project-card obscura">
-        <div class="project-topline">
-          <span class="project-icon">◉</span>
-          <span class="status">Out now · £10 GBP</span>
-        </div>
-        <h3>OBSCURA INDEX — VAULT ZERO</h3>
-        <p>
-          Desk-bound psychological horror built around photographic and audio evidence,
-          anomaly reporting, procedural cases, escalating office events and multiple endings.
-        </p>
-        <div class="card-actions">
-          <a href="/projects/obscura-index.html">Get the game</a>
-          <a href="https://the-trans-girl-workshop.itch.io">itch.io</a>
-          <a href="https://gamejolt.com/@TheTransGirlWorkshop">Game Jolt</a>
-        </div>
-      </article>
-
-      <article class="project-card trapdoor">
-        <div class="project-topline">
-          <span class="project-icon">▣</span>
-          <span class="status">Public beta</span>
-        </div>
-        <h3>TrapDoor</h3>
-        <p>
-          Discord anti-bot honeypot and moderation system designed to catch accounts
-          that blindly spam available channels.
-        </p>
-        <div class="card-actions">
-          <a href="/projects/trapdoor.html">Project page</a>
-          <a href="https://discord.com/oauth2/authorize?client_id=1556682660116435084">Add to Discord</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-topline">
-          <span class="project-icon">✦</span>
-          <span class="status">Public</span>
-        </div>
-        <h3>EDProLight</h3>
-        <p>A community project and utility built for Elite Dangerous.</p>
-        <div class="card-actions">
-          <a href="https://github.com/TheTransGirlWorkshop/EDProLight">GitHub</a>
-        </div>
-      </article>
-
-      <article class="project-card kawaii">
-        <div class="project-topline">
-          <span class="project-icon">♡</span>
-          <span class="status">Public</span>
-        </div>
-        <h3>KawaiiNeko BetterDiscord Theme</h3>
-        <p>A custom kawaii/neko-inspired theme for BetterDiscord.</p>
-        <div class="card-actions">
-          <a href="https://github.com/TheTransGirlWorkshop/KawaiiNeko-Better-Discord-Theme">GitHub</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="section split">
-    <div>
-      <p class="eyebrow">Find the Workshop</p>
-      <h2>Elsewhere</h2>
-    </div>
-    <div class="link-list">
-      <a href="https://github.com/TheTransGirlWorkshop"><span>GitHub</span><strong>Code & projects ↗</strong></a>
-      <a href="https://the-trans-girl-workshop.itch.io"><span>itch.io</span><strong>Games ↗</strong></a>
-      <a href="https://gamejolt.com/@TheTransGirlWorkshop"><span>Game Jolt</span><strong>Games & updates ↗</strong></a>
-      <a href="https://www.youtube.com/@TheTransGirlWorkshop"><span>YouTube</span><strong>Videos ↗</strong></a>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <span>© 2026 The Trans Girl Workshop</span>
-  <div>
-    <a href="/support.html">Support</a>
-    <a href="/projects/trapdoor.html">TrapDoor</a>
-    <a href="mailto:contact@thetransgirlworkshop.com">General enquiries</a>
-    <a href="mailto:support@thetransgirlworkshop.com">Technical &amp; customer support</a>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>
