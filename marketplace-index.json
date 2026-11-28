@@ -17,7 +17,7 @@
   {
     "name": "TrapDoor",
     "url": "/projects/trapdoor",
-    "keywords": "Discord · Moderation A Discord moderation bot that tracks inactivity and lets server staff configure activity checks, exemptions and logs. Tools"
+    "keywords": "Discord · Moderation A Discord honeypot bot that catches spam bots and bad actors in a clearly marked trap channel. When a non-exempt account posts there, TrapDoor automatically bans it and records the action in a private moderation log. Tools"
   },
   {
     "name": "EDProLight",
