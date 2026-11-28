@@ -1,0 +1,173 @@
+{
+  "products": [
+    {
+      "slug": "obscura-index",
+      "name": "Obscura Index Vault Zero",
+      "launcher": {
+        "Key": "obscura-vault-zero",
+        "GameId": 5245188,
+        "Title": "OBSCURA INDEX — VAULT ZERO",
+        "StoreUrl": "https://the-trans-girl-workshop.itch.io/obscura-index-vault-zero",
+        "Released": false,
+        "UploadId": 20081695,
+        "Executable": "OBSCURA INDEX - VAULT ZERO.exe",
+        "Channel": "windows",
+        "Target": "the-trans-girl-workshop/obscura-index-vault-zero",
+        "PlaytestAvailable": true
+      },
+      "groups": [
+        "games"
+      ],
+      "status": "Released",
+      "price": "£5.00",
+      "amount": 5,
+      "summary": "Work the night shift in a haunted archive. Examine evidence, listen to recovered recordings and classify the anomalies before they find you.",
+      "art": "obscura-feature",
+      "alt": "The dimly lit archive office in Obscura Index Vault Zero",
+      "cover": "obscura-cover",
+      "kind": "Windows · Investigation horror",
+      "action": "",
+      "url": "",
+      "detail_title": "",
+      "detail": ""
+    },
+    {
+      "slug": "the-ninth-life",
+      "name": "The Ninth Life",
+      "groups": [
+        "vrc-worlds"
+      ],
+      "status": "Visit the venue",
+      "price": "Free entry",
+      "amount": 0,
+      "summary": "A VRChat bar, club and social venue with a companion website for events, tickets and member access.",
+      "art": "ninth-life",
+      "alt": "Official The Ninth Life venue banner",
+      "kind": "VRChat · Social venue",
+      "action": "Visit The Ninth Life",
+      "url": "https://the-ninth-life-three.vercel.app",
+      "detail_title": "Visit the venue",
+      "detail": "Explore scheduled events through the venue’s website. General entry to the VRChat world does not require a venue website account. The member portal uses Discord sign-in."
+    },
+    {
+      "slug": "statepulse-rp",
+      "name": "StatePulse RP",
+      "groups": [
+        "servers"
+      ],
+      "status": "In development",
+      "price": "",
+      "amount": null,
+      "summary": "A citywide FiveM roleplay project with civilian jobs, emergency services and an in-game economy.",
+      "art": "statepulse",
+      "alt": "StatePulse RP city showcase artwork",
+      "kind": "FiveM · Roleplay",
+      "action": "Follow Workshop updates",
+      "url": "https://discord.gg/jWqy4XeeCW",
+      "detail_title": "Under development",
+      "detail": "StatePulse RP is being built on FiveM. The project brings together civilian work, policing, emergency response and businesses across the city."
+    },
+    {
+      "slug": "trapdoor",
+      "name": "TrapDoor",
+      "groups": [
+        "tools"
+      ],
+      "status": "Public beta",
+      "price": "Free",
+      "amount": 0,
+      "summary": "A Discord honeypot bot that catches spam bots and bad actors in a clearly marked trap channel. When a non-exempt account posts there, TrapDoor automatically bans it and records the action in a private moderation log.",
+      "art": "trapdoor-card",
+      "alt": "Official TrapDoor artwork",
+      "kind": "Discord · Moderation",
+      "action": "",
+      "url": "",
+      "detail_title": "",
+      "detail": ""
+    },
+    {
+      "slug": "edprolight",
+      "name": "EDProLight",
+      "groups": [
+        "tools",
+        "software"
+      ],
+      "status": "Project on GitHub",
+      "price": "",
+      "amount": null,
+      "summary": "Windows software that links the Saitek and Logitech X52 Pro joystick to Elite Dangerous. Its button lights and display show live ship information.",
+      "art": "",
+      "alt": "",
+      "kind": "Windows · X52 Pro utility",
+      "action": "Open the GitHub project",
+      "url": "https://github.com/TheTransGirlWorkshop/EDProLight",
+      "detail_title": "Documentation and downloads",
+      "detail": "EDProLight uses Logitech or Saitek DirectOutput to control the joystick LEDs and multifunction display. The repository includes download instructions and configuration options."
+    },
+    {
+      "slug": "kawaiineko",
+      "name": "KawaiiNeko",
+      "groups": [
+        "assets"
+      ],
+      "status": "Project on GitHub",
+      "price": "",
+      "amount": null,
+      "summary": "A BetterDiscord theme from the Workshop. See the project repository for installation information and updates.",
+      "art": "",
+      "alt": "",
+      "kind": "BetterDiscord · Theme",
+      "action": "Open the GitHub project",
+      "url": "https://github.com/TheTransGirlWorkshop/KawaiiNeko-Better-Discord-Theme",
+      "detail_title": "Installation and updates",
+      "detail": "Use the theme repository for installation instructions, version information and issue reporting."
+    },
+    {
+      "slug": "launcher",
+      "name": "Workshop Launcher",
+      "groups": [
+        "software",
+        "launcher"
+      ],
+      "status": "Version 0.4.5",
+      "price": "Free",
+      "amount": 0,
+      "summary": "Browse Workshop games, redeem invitations and manage downloads and updates in one Windows app.",
+      "art": "workshop-launcher-preview",
+      "alt": "Workshop Launcher interface with game and library shortcuts",
+      "kind": "Windows x64 · Game library",
+      "action": "",
+      "url": "",
+      "detail_title": "",
+      "detail": ""
+    }
+  ],
+  "home": {
+    "heading": "Discover the Workshop",
+    "carousel": [
+      "obscura-index",
+      "the-ninth-life",
+      "statepulse-rp"
+    ],
+    "featured": [
+      "obscura-index",
+      "trapdoor",
+      "launcher"
+    ],
+    "releases": [
+      "obscura-index",
+      "launcher"
+    ],
+    "upcoming": [
+      "statepulse-rp"
+    ],
+    "worlds": [
+      "the-ninth-life"
+    ]
+  },
+  "store_heading": "Store",
+  "store_intro": "Browse Workshop releases and projects. Product pages show where to buy, download or follow development.",
+  "news_intro": "Follow releases and development from The Trans Girl Workshop.",
+  "news_update": "",
+  "support_update": ""
+}
